@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "60ED61E0155E6AD8C62012E90CAEC4678A8D48A4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "60ED61E0155E6AD8C62012E90CAEC4678A8D48A4" : 9223372036854775807,
+    "343FFF9A8074239C1A5654C5D5EE6D323F0D2A50" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "34301DAA-6136-4F64-B8AD-183EC9B6DF90",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "60ED61E0155E6AD8C62012E90CAEC4678A8D48A4" : "Name%20to%20Faces\/",
+    "343FFF9A8074239C1A5654C5D5EE6D323F0D2A50" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Name to Faces",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Name to Faces.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Martinnord\/Hacking-With-Swift-projects.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "343FFF9A8074239C1A5654C5D5EE6D323F0D2A50"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Martinnord\/Name-to-Faces.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "60ED61E0155E6AD8C62012E90CAEC4678A8D48A4"
+    }
+  ]
+}

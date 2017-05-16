@@ -12,6 +12,7 @@
 		1991F35A1ECAE21C00F8B69E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1991F3581ECAE21C00F8B69E /* Main.storyboard */; };
 		1991F35C1ECAE21C00F8B69E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1991F35B1ECAE21C00F8B69E /* Assets.xcassets */; };
 		1991F35F1ECAE21C00F8B69E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1991F35D1ECAE21C00F8B69E /* LaunchScreen.storyboard */; };
+		1991F3671ECAE65C00F8B69E /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1991F3661ECAE65C00F8B69E /* PersonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1991F35B1ECAE21C00F8B69E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1991F35E1ECAE21C00F8B69E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1991F3601ECAE21C00F8B69E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1991F3661ECAE65C00F8B69E /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				1991F3541ECAE21C00F8B69E /* AppDelegate.swift */,
 				1991F3561ECAE21C00F8B69E /* ViewController.swift */,
+				1991F3661ECAE65C00F8B69E /* PersonCell.swift */,
 				1991F3581ECAE21C00F8B69E /* Main.storyboard */,
 				1991F35B1ECAE21C00F8B69E /* Assets.xcassets */,
 				1991F35D1ECAE21C00F8B69E /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1991F3671ECAE65C00F8B69E /* PersonCell.swift in Sources */,
 				1991F3571ECAE21C00F8B69E /* ViewController.swift in Sources */,
 				1991F3551ECAE21C00F8B69E /* AppDelegate.swift in Sources */,
 			);
