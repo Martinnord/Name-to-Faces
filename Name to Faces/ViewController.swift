@@ -24,6 +24,26 @@ class ViewController: UICollectionViewController, UIImagePickerControllerDelegat
         present(picker, animated: true, completion: nil)
     }
     
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        // if it fails, get out!
+        guard let image = info[UIImagePickerControllerEditedImage] as? UIImage else { return }
+        
+        let imageName = UUID().uuidString
+        let imagePath = getDocumentsDirectory().appendingPathComponent(imageName)
+        
+        if let jpegData = UIImageJPEGRepresentation(image, 80) {
+            try? jpegData.write(to: imagePath)
+        }
+        
+        dismiss(animated: true)
+    }
+    
+    func getDocumentsDirectory() -> URL {
+        let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+        let documentsDirectory = paths[0]
+        return documentsDirectory
+    }
+    
     // Numbers of items in the collectionview
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 10
